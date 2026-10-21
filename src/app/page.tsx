@@ -332,7 +332,7 @@ export default function Home() {
                   <div className="project-links">
                     {project.link && (
                       <a href={project.link}>
-                        {project.number === "03" ? "Discuss a project" : "View project"}
+                        {project.number === "07" ? "Discuss a project" : "View project"}
                         <ArrowUpRight size={16} />
                       </a>
                     )}
